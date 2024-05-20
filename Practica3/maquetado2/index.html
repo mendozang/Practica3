@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Maquetado 2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registro a Evento DEMO</h1>
+        <h3>Llene los siguientes datos para registrarse al evento</h3>
+    </header>
+
+    <main>
+
+
+        <div class="content">
+            <div class="left">
+                <h4>Fecha:</h4>
+                <p>Sabado 24 Abril 2010 @10:15 AM</p>
+                <br>
+                <h4>Dirección:</h4>
+                <p>Tenencia Morelos, Morelia, Michoacán, 58341, México</p>
+
+                <iframe width="425" height="350"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-101.2429189682007%2C19.68825338190995%2C-101.21004581451417%2C19.710556214638963&amp;layer=mapnik"
+                    style="border: 1px solid black"></iframe><br /><small><a
+                        href="https://www.openstreetmap.org/#map=15/19.6994/-101.2265">View Larger Map</a></small>
+            </div>
+
+            <div class="right">
+                <h4>Registro: </h4>
+                <form>
+                    <input type="text" id="nombre" placeholder="Nombre">
+                    <input type="text" id="apellido" placeholder="Apellido">
+                    <input type="text" id="numero" placeholder="Número de Telefono">
+                    <input type="email" id="email" placeholder="Email">
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>
